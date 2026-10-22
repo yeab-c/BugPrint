@@ -1,0 +1,28 @@
+# BugPrint configuration example
+# Copy to bugprint.toml and edit as needed.
+# Environment variables override these values.
+
+[bugprint]
+# Database path (default: .bugprint/bugprint.db)
+# db = ".bugprint/bugprint.db"
+
+[decider]
+# Decider server URL (default: http://127.0.0.1:8099)
+# url = "http://127.0.0.1:8099"
+
+# Confidence threshold to act without asking (default: 0.70)
+# act_threshold = 0.70
+
+# Allow fallback heuristic when Decider is down (default: false)
+# allow_fallback = false
+
+[session]
+# Minutes of inactivity that triggers an idle_gap event (default: 15)
+# idle_gap_minutes = 15
+
+[bedrock]
+# Bedrock model ID — set after checking your AWS account access
+# model_id = ""
+
+# AWS region for Bedrock (default: us-east-1)
+# region = "us-east-1"
