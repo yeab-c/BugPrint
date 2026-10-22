@@ -1,0 +1,21 @@
+{
+  "model": "strands-decider-2B-qwen3.5-v1-2610",
+  "answers": {
+    "next_tool": {
+      "type": "choice",
+      "choice": "record_possible_defect",
+      "probabilities": {
+        "record_possible_defect": 0.9818,
+        "record_interruption": 0.0081,
+        "ask_for_confirmation": 0.0101
+      },
+      "confidence": 0.9727
+    }
+  },
+  "usage": {
+    "input_tokens": 206,
+    "output_tokens": 1
+  },
+  "latency_ms": 3798.94,
+  "_our_measured_latency_ms": 3991.93
+}
